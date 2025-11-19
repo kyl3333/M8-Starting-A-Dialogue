@@ -33,8 +33,6 @@ func show_text() -> void:
 	# And we set the appropriate expression texture
 	rich_text_label.text = current_item.text
 	expression.texture = current_item.expression
-	body.texture = current_item.character
-
 	# We set the initial visible ratio to the text to 0, so we can change it in the tween
 	rich_text_label.visible_ratio = 0.0
 	# We create a tween that will draw the text
